@@ -94,3 +94,4 @@ This final part analyzes ride patterns in the combined dataset based on the day 
 * **`pivot.style.background_gradient()`**: Applies a color gradient to the pivot table, making it easier to visually identify patterns of high and low ride activity across days and hours.
 * **`def gen_pivot_table(df,col1,col2): ... return pivot.style.background_gradient()`**: Defines a reusable function `gen_pivot_table` that takes a DataFrame and two column names, creates a pivot table by grouping and unstacking, and then applies a background gradient for visualization. This promotes code reusability.
 * **`gen_pivot_table(final,"hour","Day")`**: Calls the `gen_pivot_table` function to create a pivot table showing ride counts with 'hour' as rows and 'Day' as columns, with a background gradient for easy interpretation.
+* **Thanks for reading!'**: A closing message to the reader.
